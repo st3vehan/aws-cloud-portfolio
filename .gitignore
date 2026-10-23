@@ -1,0 +1,17 @@
+# Terraform state and caches: state can contain secrets
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+crash.log
+# Secrets and credentials
+.env
+*.pem
+*.key
+.aws/
+# Python
+__pycache__/
+.venv/
+venv/
+# OS junk
+.DS_Store
